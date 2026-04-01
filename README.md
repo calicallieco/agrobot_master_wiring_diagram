@@ -1,4 +1,4 @@
-# agrobot_master_wiring_diagram
+# Agrobot Master Wiring Diagram
 ## About this project
 
 **@Callie** and **@fleabrew** are jointly working on a master wiring diagram for the system, including the motors, controllers, gripper subsystem, PC, PLC, and other odd components. This will be a document-in-progress for a while, but the first draft should be ready **Thursday**.
