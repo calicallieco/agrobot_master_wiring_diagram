@@ -411,12 +411,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "agrobot_master_wiring_diagram.kicad_sch",
+        "filename": "..\\Documents\\agrobot_master_wiring_diagram\\v.0.0.3_april_5\\agrobot_master_wiring_diagram.kicad_sch",
         "name": "Root",
         "uuid": "534124d7-0531-4f9a-ac39-c71473e80d99"
       }
     ],
-    "used_designators": "#PWR1-7,\\-V9,TP93",
+    "used_designators": "#PWR8-19,D1,TP94-113,K1-5",
     "variants": []
   },
   "sheets": [

@@ -391,6 +391,354 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Relay:Relay_SPDT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Relay_SPDT"
+				(at 11.43 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Relay SPDT, monostable, EN50005"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Relay?SPDT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Relay_SPDT_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Relay_SPDT_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Relay_SPDT_1_1"
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power global)
 			(pin_numbers
@@ -1111,7 +1459,7 @@
 	)
 	(text "10x Din Rail Slim Relay Module HF41F 12-ZS 24-ZS \nwith 41F-1Z-C2-1 Holder Socket (24V)  "
 		(exclude_from_sim no)
-		(at 223.012 76.962 0)
+		(at 228.6 79.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1230,6 +1578,46 @@
 			(justify left top)
 		)
 		(uuid "1175d77f-9da3-47a9-b46f-066f88af347f")
+	)
+	(text_box "JR4_02LJN"
+		(exclude_from_sim no)
+		(at 241.3 115.57 0)
+		(size 11.43 40.64)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2012b2b6-db44-4f10-9b7a-d7c462bebc79")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 226.06 81.28 0)
+		(size 177.8 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "24adc8af-2785-428c-9b4b-42a21d1725d1")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -1971,6 +2359,18 @@
 		(color 0 0 0 0)
 		(uuid "f9846072-afad-4b9b-a712-2b6220be8d2e")
 	)
+	(no_connect
+		(at 288.29 102.87)
+		(uuid "743a0b76-9092-4ec1-8742-5157fea91b0e")
+	)
+	(no_connect
+		(at 320.04 102.87)
+		(uuid "791da35c-4a59-4729-b840-3c639a8c01ed")
+	)
+	(no_connect
+		(at 255.27 102.87)
+		(uuid "9d1f20f1-30e1-45cc-99e0-b72d7a7393be")
+	)
 	(wire
 		(pts
 			(xy 59.69 27.94) (xy 59.69 36.83)
@@ -2038,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 107.95) (xy 325.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6fa6fb-8a97-4340-b33d-2376ae42cd19")
+	)
+	(wire
+		(pts
 			(xy 175.26 33.02) (xy 175.26 27.94)
 		)
 		(stroke
@@ -2046,6 +2456,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "0d080431-2038-4205-92d3-bbd279c70f63")
+	)
+	(wire
+		(pts
+			(xy 320.04 95.25) (xy 322.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109cd86f-cc00-4a85-b66a-aac8afa76736")
 	)
 	(wire
 		(pts
@@ -2136,6 +2556,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 104.14) (xy 271.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ceef110-eb92-4167-a0ac-cace126b457e")
+	)
+	(wire
+		(pts
 			(xy 106.68 41.91) (xy 128.27 41.91)
 		)
 		(stroke
@@ -2158,6 +2588,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 104.14) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262f9f56-d0b4-4cc3-bce3-763c4669eb21")
+	)
+	(wire
+		(pts
 			(xy 148.59 49.53) (xy 170.18 49.53)
 		)
 		(stroke
@@ -2165,6 +2605,16 @@
 			(type default)
 		)
 		(uuid "263c929d-23a5-4aa8-80fb-858b0e849ab1")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1da941-c540-4f50-b37a-6cc090d15796")
 	)
 	(wire
 		(pts
@@ -2176,6 +2626,26 @@
 			(color 255 0 0 1)
 		)
 		(uuid "2d81c7d5-0f4f-4ecd-a069-49203de094e9")
+	)
+	(wire
+		(pts
+			(xy 292.1 95.25) (xy 292.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dda3fa0-c1ae-4091-9363-56831e534cba")
+	)
+	(wire
+		(pts
+			(xy 196.85 114.3) (xy 189.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3f7d03-4d81-49a6-b26d-0faf70d696f4")
 	)
 	(wire
 		(pts
@@ -2201,6 +2671,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 140.97) (xy 243.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a49fed-5fee-4c4c-b784-16e82073037f")
+	)
+	(wire
+		(pts
+			(xy 243.84 133.35) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e3e2ed-99bb-488a-b9d0-30a854cf1243")
+	)
+	(wire
+		(pts
 			(xy 22.86 36.83) (xy 38.1 36.83)
 		)
 		(stroke
@@ -2209,6 +2699,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "3528c4c9-eac9-447d-b439-64cf84a96354")
+	)
+	(wire
+		(pts
+			(xy 195.58 105.41) (xy 195.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366fb06b-0bef-4cec-be7d-4daa231fb06f")
 	)
 	(wire
 		(pts
@@ -2230,6 +2730,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "395e1729-d587-4196-89bc-be8a6ed0dd2a")
+	)
+	(wire
+		(pts
+			(xy 304.8 95.25) (xy 292.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1117ca-de70-4ebe-8a6d-341e9c058ac4")
 	)
 	(wire
 		(pts
@@ -2309,6 +2819,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 95.25) (xy 257.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dbad6b-9a2c-4ad0-9fca-137537424929")
+	)
+	(wire
+		(pts
+			(xy 194.31 111.76) (xy 189.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc262dd-9eaf-446c-bda2-8c8482b593ef")
+	)
+	(wire
+		(pts
 			(xy 191.77 24.13) (xy 191.77 49.53)
 		)
 		(stroke
@@ -2316,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "4d3587a0-b3cf-488b-8b6c-e91a831502c0")
+	)
+	(wire
+		(pts
+			(xy 353.06 106.68) (xy 358.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5037fc00-e2c1-4258-83d3-a4cc63a9b0b4")
 	)
 	(wire
 		(pts
@@ -2339,6 +2879,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 154.94) (xy 243.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ceb1c8-4ed1-4d29-8d3e-22f18b9a4906")
+	)
+	(wire
+		(pts
 			(xy 45.72 33.02) (xy 45.72 27.94)
 		)
 		(stroke
@@ -2358,6 +2908,26 @@
 			(color 0 0 255 1)
 		)
 		(uuid "5a1dd484-4984-494d-b34d-65e5c4bc0830")
+	)
+	(wire
+		(pts
+			(xy 234.95 124.46) (xy 243.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aad7d12-d4ca-42a6-998f-93fa6357fee0")
+	)
+	(wire
+		(pts
+			(xy 369.57 102.87) (xy 370.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abe1ff4-8c5c-4557-bb62-95366d6232a2")
 	)
 	(wire
 		(pts
@@ -2394,6 +2964,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 93.98) (xy 325.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7d82ea-417d-4d64-bf18-c6e97f0701ef")
+	)
+	(wire
+		(pts
 			(xy 130.81 57.15) (xy 152.4 57.15)
 		)
 		(stroke
@@ -2413,6 +2993,26 @@
 			(color 132 0 0 1)
 		)
 		(uuid "61251273-76bb-41d4-b2f6-6c1b71137419")
+	)
+	(wire
+		(pts
+			(xy 336.55 102.87) (xy 336.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c70506-d18f-4116-863b-63a81ba20c8c")
+	)
+	(wire
+		(pts
+			(xy 303.53 105.41) (xy 304.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665b3a61-cf9d-4f50-a04b-6a825ec6b43b")
 	)
 	(wire
 		(pts
@@ -2444,6 +3044,16 @@
 			(type default)
 		)
 		(uuid "677342b4-92ed-472b-b0b5-6cdd7fe62564")
+	)
+	(wire
+		(pts
+			(xy 227.33 95.25) (xy 227.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696067d5-4042-4b76-ac4c-10739224273d")
 	)
 	(wire
 		(pts
@@ -2511,6 +3121,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 101.6) (xy 369.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7013796f-5cab-4e06-b2b6-088c185ab37d")
+	)
+	(wire
+		(pts
 			(xy 62.23 49.53) (xy 83.82 49.53)
 		)
 		(stroke
@@ -2529,6 +3149,26 @@
 			(color 0 0 255 1)
 		)
 		(uuid "73e38df4-9f1d-406f-b605-51078552eb5c")
+	)
+	(wire
+		(pts
+			(xy 271.78 105.41) (xy 273.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75de1508-9a58-46fd-88a9-84c74bab44f5")
+	)
+	(wire
+		(pts
+			(xy 198.12 107.95) (xy 204.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7748d5d7-b0ec-4a80-bdbc-a43bf51fd327")
 	)
 	(wire
 		(pts
@@ -2551,6 +3191,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "811fe53d-d55d-4e3c-938f-450c8934ea51")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 238.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817036b9-d9f8-486f-9467-7bc66243b1cd")
 	)
 	(wire
 		(pts
@@ -2598,6 +3248,26 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 92.71) (xy 358.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873ebeda-de71-40f2-b9eb-d5457073a689")
+	)
+	(wire
+		(pts
+			(xy 288.29 95.25) (xy 290.83 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8874547b-c2b1-4b08-b1f8-64a0a3889504")
+	)
+	(wire
+		(pts
 			(xy 149.86 27.94) (xy 149.86 41.91)
 		)
 		(stroke
@@ -2620,6 +3290,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 92.71) (xy 358.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b09b2e6-1c1e-4dcd-89a1-29b7cb0eb457")
+	)
+	(wire
+		(pts
 			(xy 63.5 27.94) (xy 63.5 41.91)
 		)
 		(stroke
@@ -2628,6 +3308,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "8ba4414b-51e3-4546-85e4-48e8801eedbd")
+	)
+	(wire
+		(pts
+			(xy 198.12 107.95) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da8ab26-517a-41ba-9946-286965365181")
 	)
 	(wire
 		(pts
@@ -2642,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 137.16) (xy 243.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1de40c-44c0-4c00-b1a5-6002562fe8a5")
+	)
+	(wire
+		(pts
 			(xy 152.4 57.15) (xy 173.99 57.15)
 		)
 		(stroke
@@ -2650,6 +3350,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "9214cd5b-a8b9-448a-b297-e4a87a6b3418")
+	)
+	(wire
+		(pts
+			(xy 240.03 95.25) (xy 227.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ac6f8a-ace0-40db-84b5-abfa5e8e16ae")
 	)
 	(wire
 		(pts
@@ -2685,6 +3395,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 137.16) (xy 243.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c09d7eb-b909-458d-a771-af7ba10dc415")
+	)
+	(wire
+		(pts
 			(xy 109.22 24.13) (xy 109.22 57.15)
 		)
 		(stroke
@@ -2693,6 +3413,26 @@
 			(color 0 0 255 1)
 		)
 		(uuid "9c96bc43-6f0f-4ea6-9652-131da8cd940c")
+	)
+	(wire
+		(pts
+			(xy 195.58 113.03) (xy 189.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db403a9-62a2-4226-bfc7-0ce89fe5961c")
+	)
+	(wire
+		(pts
+			(xy 194.31 104.14) (xy 194.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3780f72-c04e-409b-9705-4d0609cdc78c")
 	)
 	(wire
 		(pts
@@ -2795,6 +3535,36 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 128.27) (xy 243.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b826c605-61da-49fa-8004-0a1be56ede5d")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7ecfea-22b9-42a9-a9c4-3b53edc42656")
+	)
+	(wire
+		(pts
+			(xy 288.29 107.95) (xy 293.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce01736-d4f2-4764-9212-a2620b4fdf38")
+	)
+	(wire
+		(pts
 			(xy 67.31 33.02) (xy 88.9 33.02)
 		)
 		(stroke
@@ -2814,6 +3584,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "be78c454-91ba-4a8b-b467-1ea6209f8757")
+	)
+	(wire
+		(pts
+			(xy 234.95 148.59) (xy 243.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c113a5d6-4afa-4d6c-903e-58a051a0dbc5")
 	)
 	(wire
 		(pts
@@ -2839,6 +3619,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca4163f-ef37-4692-b820-dfd62e92a031")
+	)
+	(wire
+		(pts
+			(xy 200.66 109.22) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4046e8-6bf6-4c26-a7bb-d96bc77c4d1a")
+	)
+	(wire
+		(pts
 			(xy 40.64 24.13) (xy 40.64 49.53)
 		)
 		(stroke
@@ -2846,6 +3646,16 @@
 			(type default)
 		)
 		(uuid "d04b4514-4bf3-4a45-9ed7-6c2dfda9897f")
+	)
+	(wire
+		(pts
+			(xy 189.23 115.57) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27e5659-267c-4ba9-a29d-e638fecc5f04")
 	)
 	(wire
 		(pts
@@ -2860,6 +3670,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 92.71) (xy 388.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d865c607-a945-4ceb-a190-a82d9050e3a1")
+	)
+	(wire
+		(pts
 			(xy 22.86 33.02) (xy 45.72 33.02)
 		)
 		(stroke
@@ -2868,6 +3688,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "d9e61564-0902-4e1d-bb6f-7d9c9ef264f6")
+	)
+	(wire
+		(pts
+			(xy 238.76 105.41) (xy 240.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db78adaf-f518-4b13-831e-01f18583e427")
 	)
 	(wire
 		(pts
@@ -2913,6 +3743,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 105.41) (xy 391.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20cc378-4173-462d-a45e-6a16456ad924")
+	)
+	(wire
+		(pts
 			(xy 88.9 33.02) (xy 88.9 27.94)
 		)
 		(stroke
@@ -2935,6 +3775,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 133.35) (xy 243.84 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e770e3b1-8004-49de-87ea-b224c415a940")
+	)
+	(wire
+		(pts
 			(xy 105.41 24.13) (xy 105.41 49.53)
 		)
 		(stroke
@@ -2942,6 +3792,46 @@
 			(type default)
 		)
 		(uuid "e973a22a-c593-42ca-9ac3-334d2fbe88e8")
+	)
+	(wire
+		(pts
+			(xy 200.66 109.22) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e997bc35-044c-4472-aa75-7fe9f346c507")
+	)
+	(wire
+		(pts
+			(xy 325.12 93.98) (xy 325.12 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d672e8-42bf-4fcf-a9a1-4f421853afaa")
+	)
+	(wire
+		(pts
+			(xy 303.53 104.14) (xy 303.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec973119-74b0-430e-91d4-b9f25f0711f3")
+	)
+	(wire
+		(pts
+			(xy 336.55 104.14) (xy 337.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8b074d-938e-4c4a-a5a7-58d0d9c02bd7")
 	)
 	(wire
 		(pts
@@ -2953,6 +3843,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "ef4614e3-a9d5-4753-8578-c5c81e38e232")
+	)
+	(wire
+		(pts
+			(xy 273.05 95.25) (xy 271.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1354e02-4e39-436d-b809-cd8258075375")
 	)
 	(wire
 		(pts
@@ -2978,6 +3878,26 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 105.41) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f374b943-2d2d-4966-a9a4-f7f922b99af1")
+	)
+	(wire
+		(pts
+			(xy 353.06 93.98) (xy 355.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f686212a-2e88-4e6d-a177-13509eb35ffa")
+	)
+	(wire
+		(pts
 			(xy 41.91 41.91) (xy 63.5 41.91)
 		)
 		(stroke
@@ -2986,6 +3906,196 @@
 			(color 0 0 0 1)
 		)
 		(uuid "f8982c25-d716-4820-861c-87d6f0c1b817")
+	)
+	(wire
+		(pts
+			(xy 232.41 154.94) (xy 243.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4624a8-a93d-40c1-a1e4-3e1b2a5cd446")
+	)
+	(wire
+		(pts
+			(xy 255.27 107.95) (xy 260.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7aee19-ccd9-46b6-a5ea-90fe063ea0c9")
+	)
+	(label "BLUE_Light"
+		(at 233.68 137.16 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "0216f5b7-a1b0-42b6-9647-7619e12e2ac1")
+	)
+	(label "ORANGE_Light"
+		(at 293.37 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11ec6b1d-fbcb-4b49-a4da-42e2d7a48466")
+	)
+	(label "GREEN_Light"
+		(at 325.12 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19679b1c-693d-4ace-a638-c043afc25057")
+	)
+	(label "ORANGE_Signal"
+		(at 271.78 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d006810-6b7d-44c0-92b0-43b6c379856d")
+	)
+	(label "BLUE_Light"
+		(at 358.14 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4881a2b3-ea76-43ab-a190-24b1a94c4c24")
+	)
+	(label "GREEN_Light"
+		(at 233.68 133.35 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c3b9d6a-6e5a-4049-b217-903b25fd4be7")
+	)
+	(label "BLUE_Signal"
+		(at 190.5 113.03 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "5704fdb2-b0d7-4054-9b93-23fa00fc7eaa")
+	)
+	(label "WHITE_Light"
+		(at 236.22 140.97 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "58ee590e-d2e6-43b8-a07a-593ff090b371")
+	)
+	(label "RED_Signal"
+		(at 227.33 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59acc80f-bd2d-45fd-9f02-0c1e3cc89e54")
+	)
+	(label "ORANGE_Signal"
+		(at 193.04 115.57 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "63024bdb-92e9-47ce-b846-647138d6082b")
+	)
+	(label "GREEN_Signal"
+		(at 292.1 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72de4a33-7b3f-4008-a2ce-20eb594bb1ff")
+	)
+	(label "WHITE_Signal"
+		(at 189.23 111.76 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ab03a76-57da-4619-a579-a48d51f0a434")
+	)
+	(label "WHITE_Light"
+		(at 391.16 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3ba7791-afd0-4466-baff-8b1326252daa")
+	)
+	(label "GREEN_Signal"
+		(at 189.23 114.3 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb759806-c80b-4e72-8f63-d2b32141f5e7")
+	)
+	(label "BLUE_Signal"
+		(at 325.12 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc02368b-7b47-49a0-962d-9cdc7d8c0980")
+	)
+	(label "RED_Light"
+		(at 234.95 124.46 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "c63a62a2-ef18-4ae9-bcc4-0e9e9a987b11")
+	)
+	(label "RED_Signal"
+		(at 189.23 116.84 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "d54f98e8-5c8a-4730-b6fa-cc478951d60e")
 	)
 	(label "CAN L"
 		(at 139.7 57.15 0)
@@ -2996,6 +4106,36 @@
 			(justify left bottom)
 		)
 		(uuid "e6e743f5-d371-465b-b6bf-517f94066644")
+	)
+	(label "WHITE_Signal"
+		(at 358.14 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8fd6550-00c2-4148-a09e-caea407b27af")
+	)
+	(label "ORANGE_Light"
+		(at 234.95 128.27 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea8172f8-6696-4c15-b2fb-88c814409baa")
+	)
+	(label "RED_Light"
+		(at 260.35 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4ce0b22-aca3-497a-a53f-14ca825472c6")
 	)
 	(label "CAN H"
 		(at 139.7 49.53 0)
@@ -3080,7 +4220,7 @@
 			(uuid "15aa1832-3986-4154-b2c3-68bc10737170")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP91")
 					(unit 1)
@@ -3161,7 +4301,7 @@
 			(uuid "6c0ee3b4-5262-40d0-a2b1-da5df1ae9312")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP50")
 					(unit 1)
@@ -3241,7 +4381,7 @@
 			(uuid "dfa2370f-60bb-498f-a5a3-9dec17b607f6")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP11")
 					(unit 1)
@@ -3320,7 +4460,7 @@
 			(uuid "cacc3294-793d-4bc6-88d2-e33d73d4a003")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND4")
 					(unit 1)
@@ -3401,7 +4541,7 @@
 			(uuid "897eeb11-3232-4b23-b14c-e78fbc22f996")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP57")
 					(unit 1)
@@ -3482,7 +4622,7 @@
 			(uuid "90059ba5-43dd-469c-9a17-5c9d156281dd")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP67")
 					(unit 1)
@@ -3563,7 +4703,7 @@
 			(uuid "789e4315-dbac-4c91-b8be-2f41ebdec1e5")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP42")
 					(unit 1)
@@ -3645,7 +4785,7 @@
 			(uuid "5c568141-346b-4fdb-a99e-404697b75efa")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "R2")
 					(unit 1)
@@ -3726,7 +4866,7 @@
 			(uuid "0f0d2eda-b61a-4719-afa4-12a3ce3251cd")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V7")
 					(unit 1)
@@ -3807,9 +4947,88 @@
 			(uuid "71b2460a-4b47-4577-a88c-cda22f9ee784")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "051c5619-f463-466c-a9ae-94b7ebe698c9")
+		(property "Reference" "GRAY"
+			(at 245.11 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fb687cd-511e-4ba7-8f06-acbd12f7f0ba")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "GRAY")
 					(unit 1)
 				)
 			)
@@ -3887,7 +5106,7 @@
 			(uuid "c71569be-662f-4481-bb4c-2ae30795f59d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP1")
 					(unit 1)
@@ -3966,7 +5185,7 @@
 			(uuid "cb788da8-ca71-4f79-99e8-dc8dcacad968")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "48VP")
 					(unit 1)
@@ -4047,7 +5266,7 @@
 			(uuid "be0e8c17-4087-4087-8626-092caf39da8c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP47")
 					(unit 1)
@@ -4127,7 +5346,7 @@
 			(uuid "81aca9ff-cd53-46df-ae6c-146e19497741")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP0")
 					(unit 1)
@@ -4207,7 +5426,7 @@
 			(uuid "bf7955c6-6b23-4e5a-bf08-067abaf318ae")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP2")
 					(unit 1)
@@ -4288,7 +5507,7 @@
 			(uuid "e922f42d-be3f-49d5-b9c0-32cfa64cce53")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP14")
 					(unit 1)
@@ -4369,7 +5588,7 @@
 			(uuid "fafa9939-8913-4338-a278-620e6fea3dcd")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP64")
 					(unit 1)
@@ -4450,7 +5669,7 @@
 			(uuid "7add9e93-cb64-4155-8629-c59b733d47dd")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP52")
 					(unit 1)
@@ -4531,7 +5750,7 @@
 			(uuid "225045e9-2360-4be1-a829-f5ed5096b85f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP17")
 					(unit 1)
@@ -4612,7 +5831,7 @@
 			(uuid "bafc7d9a-43ed-4363-8443-94b6ea1ec98f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP24")
 					(unit 1)
@@ -4691,7 +5910,7 @@
 			(uuid "19f5906a-1688-46c5-a68e-6c7467496506")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANL4")
 					(unit 1)
@@ -4772,7 +5991,7 @@
 			(uuid "74ab8118-683b-41d3-9e42-bdd1d64a3649")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP63")
 					(unit 1)
@@ -4853,7 +6072,7 @@
 			(uuid "a77eeba0-1481-46d2-93cc-aee6163c6ab0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP15")
 					(unit 1)
@@ -4932,9 +6151,88 @@
 			(uuid "36c6fe02-3465-42b7-b4a1-ff3f523ceeaf")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1829cd86-2e88-467d-b365-0104d28dda90")
+		(property "Reference" "ORANGE"
+			(at 245.11 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e238f85-f35e-41df-a530-88f2a5371f66")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "ORANGE")
 					(unit 1)
 				)
 			)
@@ -5012,7 +6310,7 @@
 			(uuid "ddcaf839-9d57-4031-8df6-520ab813b74d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP1")
 					(unit 1)
@@ -5093,7 +6391,7 @@
 			(uuid "355bdd19-aa32-4b42-88ac-4ae111509d2b")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP19")
 					(unit 1)
@@ -5173,7 +6471,7 @@
 			(uuid "945d5876-e591-4f3f-a925-b3083781aecf")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP14")
 					(unit 1)
@@ -5252,7 +6550,7 @@
 			(uuid "f4ad241c-8ce9-436b-bab2-15e0e662144c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND4")
 					(unit 1)
@@ -5332,7 +6630,7 @@
 			(uuid "6b63ab5c-5121-4690-b33c-0c6650f2b7d7")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "A2")
 					(unit 1)
@@ -5412,9 +6710,88 @@
 			(uuid "56b55c92-5581-4877-8de6-348adf74e249")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c047a86-a1fd-4ccd-b2b4-3a21a4a76832")
+		(property "Reference" "BLUE"
+			(at 245.11 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb0d7355-856a-45b4-a2d3-2a1c3233ac4a")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "BLUE")
 					(unit 1)
 				)
 			)
@@ -5490,7 +6867,7 @@
 			(uuid "ef36990e-64f1-4668-ab63-6530d3e776b3")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "#PWR03")
 					(unit 1)
@@ -5569,7 +6946,7 @@
 			(uuid "6e757070-5a58-4305-8079-5f25e677144b")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "48VP2")
 					(unit 1)
@@ -5650,7 +7027,7 @@
 			(uuid "9f3e334b-663a-4d5c-81d1-7f042ed663e3")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP61")
 					(unit 1)
@@ -5731,7 +7108,7 @@
 			(uuid "afa7cf46-f361-4ee3-93de-ace6a8019562")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP21")
 					(unit 1)
@@ -5811,9 +7188,87 @@
 			(uuid "477b8d91-81a7-446c-8a90-7e73ca5dbe02")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb70509-70a4-4b4d-b3a1-691f19a8fe26")
+		(property "Reference" "#PWR09"
+			(at 257.81 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88bc1b98-9ad1-4d1c-8a90-b8664bc669b0")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5892,7 +7347,7 @@
 			(uuid "66c19017-1919-49f2-95ca-609a3b439d4a")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP90")
 					(unit 1)
@@ -5973,7 +7428,7 @@
 			(uuid "d77a0e51-25f7-425d-9940-0a78b3e5d559")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP53")
 					(unit 1)
@@ -6052,7 +7507,7 @@
 			(uuid "4af39cc7-3ca5-4ba9-96ac-bcdff8f1249d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND5")
 					(unit 1)
@@ -6133,7 +7588,7 @@
 			(uuid "8e8191a2-d800-465e-ad4e-33d3ee7cae87")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP18")
 					(unit 1)
@@ -6213,7 +7668,7 @@
 			(uuid "45574bb4-d5bc-4d39-b7f6-d2958ee92463")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP3")
 					(unit 1)
@@ -6294,7 +7749,7 @@
 			(uuid "bdae505c-1383-4048-a90a-78e8066efdb0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP86")
 					(unit 1)
@@ -6375,7 +7830,7 @@
 			(uuid "127ece04-ffc8-4c25-9d32-0cf928697087")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP58")
 					(unit 1)
@@ -6456,9 +7911,88 @@
 			(uuid "7a8d7fee-1c0f-4696-9cea-0137609576d4")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28f40789-7850-4530-aaeb-405097783171")
+		(property "Reference" "YELLOW"
+			(at 245.11 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dba85b27-1b0e-4fb6-b876-ef64c12a824a")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "YELLOW")
 					(unit 1)
 				)
 			)
@@ -6535,7 +8069,7 @@
 			(uuid "9108b261-61b8-40c5-9cfd-e2109a454fe5")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND7")
 					(unit 1)
@@ -6614,7 +8148,7 @@
 			(uuid "ab8dac0f-6200-4450-83af-894d2e12fe6a")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "ENC4")
 					(unit 1)
@@ -6695,7 +8229,7 @@
 			(uuid "3a42bc5a-b96c-4fcf-8134-55ed62ae2e60")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP35")
 					(unit 1)
@@ -6775,7 +8309,7 @@
 			(uuid "7cddd621-b333-4dcf-a506-1743c7de2f03")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP9")
 					(unit 1)
@@ -6856,7 +8390,7 @@
 			(uuid "43f65d05-f83f-43b2-ad2d-2e95014e09cd")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP55")
 					(unit 1)
@@ -6936,7 +8470,7 @@
 			(uuid "7d79b93f-f9cf-414d-a195-9923f8839268")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP2")
 					(unit 1)
@@ -7016,7 +8550,7 @@
 			(uuid "5f62f48a-f9d7-4c81-9571-530732e1c784")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP4")
 					(unit 1)
@@ -7096,7 +8630,7 @@
 			(uuid "44c7b07b-433c-40e9-afbf-59e6cdad4f78")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "A4")
 					(unit 1)
@@ -7175,7 +8709,7 @@
 			(uuid "91ae999c-de69-442a-84cb-872f96fc627c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "ENC3")
 					(unit 1)
@@ -7255,7 +8789,7 @@
 			(uuid "2650f76b-389e-4752-8ae8-b4ef5eae417c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP6")
 					(unit 1)
@@ -7334,7 +8868,7 @@
 			(uuid "43b66ffe-985f-4479-8ac7-43d4a67c8b23")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND7")
 					(unit 1)
@@ -7415,7 +8949,7 @@
 			(uuid "813d5ea5-317f-4176-9f83-fb0df785847c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP84")
 					(unit 1)
@@ -7496,7 +9030,7 @@
 			(uuid "1bcff901-1105-47ff-9403-e8e095c29cd1")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V5")
 					(unit 1)
@@ -7575,7 +9109,7 @@
 			(uuid "9d311803-c674-43f9-a072-ab51e89d65e0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANH4")
 					(unit 1)
@@ -7654,7 +9188,7 @@
 			(uuid "5874e893-987f-4ec7-9e3a-dd226a71813a")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "24VL1")
 					(unit 1)
@@ -7733,7 +9267,7 @@
 			(uuid "7165400f-2c76-464e-8a27-933158a4ab2d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "24VL2")
 					(unit 1)
@@ -7814,7 +9348,7 @@
 			(uuid "50356aa9-0caf-4adf-910f-0f878fa1a1c2")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP81")
 					(unit 1)
@@ -7893,7 +9427,7 @@
 			(uuid "ac20cfff-d772-4e89-a150-cc5d4f0ea7da")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANH")
 					(unit 1)
@@ -7973,7 +9507,7 @@
 			(uuid "7bb8a2ff-b44f-4f35-afaa-1afad95b2f1d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP14")
 					(unit 1)
@@ -8052,7 +9586,7 @@
 			(uuid "61038bfe-395c-4b15-8bcb-01e4b86338db")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND")
 					(unit 1)
@@ -8132,7 +9666,7 @@
 			(uuid "a0114e69-1bc8-466f-8c72-1b6b4e05f05f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP12")
 					(unit 1)
@@ -8211,7 +9745,7 @@
 			(uuid "8f298e37-ed49-4b7e-a1b1-12ca7ade0b8e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "24VL")
 					(unit 1)
@@ -8292,7 +9826,7 @@
 			(uuid "08d35124-265f-4237-8754-c77866bb5c54")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP51")
 					(unit 1)
@@ -8373,7 +9907,7 @@
 			(uuid "8e200e4b-ba65-405c-82ca-ee78684c57d6")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP49")
 					(unit 1)
@@ -8454,7 +9988,7 @@
 			(uuid "8e6f0fad-8051-4be9-8eee-a7ba3fc3d9d0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP39")
 					(unit 1)
@@ -8534,7 +10068,7 @@
 			(uuid "7a2704f5-3f3a-4642-98cd-fc0c1d3daab4")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP5")
 					(unit 1)
@@ -8614,9 +10148,87 @@
 			(uuid "882902ae-67c3-4417-a90c-83ae37fd27d8")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 238.76 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4830dbee-f23e-4b39-9e4b-6099f16f2b1b")
+		(property "Reference" "#PWR08"
+			(at 238.76 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 238.76 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36593f27-2cad-4832-9eb8-ee341263bd5c")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8693,7 +10305,7 @@
 			(uuid "8a1043eb-7a6f-436c-a3ef-4ad6b7dad9f7")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "ENC6")
 					(unit 1)
@@ -8774,7 +10386,7 @@
 			(uuid "ad9b8e1e-12e6-4b0d-af6f-48fe82118074")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP66")
 					(unit 1)
@@ -8853,7 +10465,7 @@
 			(uuid "f2efa83e-21fd-48bc-8636-e390cf5bcd4d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANH6")
 					(unit 1)
@@ -8932,9 +10544,87 @@
 			(uuid "d3a53f35-7cd0-4d43-8568-43146da7d78f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "48VP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 232.41 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa194b8-f42c-42f1-9202-0af47fb62f36")
+		(property "Reference" "#PWR019"
+			(at 232.41 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 232.41 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 232.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f1e34d7-a5d3-40c3-8ef1-b0240b1fbc07")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9012,7 +10702,7 @@
 			(uuid "33fdac9f-c346-4b88-82d8-d5fe83020409")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "A3")
 					(unit 1)
@@ -9092,7 +10782,7 @@
 			(uuid "ced381c3-50d4-46be-8776-0951b3cc6350")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP3")
 					(unit 1)
@@ -9172,9 +10862,99 @@
 			(uuid "3e4553e8-b3c4-4025-9d16-f448f18a2a98")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPDT")
+		(at 247.65 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515f1ad3-52b3-4164-9d5f-c89f820e7f34")
+		(property "Reference" "K1"
+			(at 247.65 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Relay_SPDT"
+			(at 247.65 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPDT, monostable, EN50005"
+			(at 247.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "3c2b8b3f-60c1-4713-8974-8279d291cb3b")
+		)
+		(pin "11"
+			(uuid "390a1f9b-98aa-4d63-95e1-f69e7fc696b5")
+		)
+		(pin "A1"
+			(uuid "07abf03c-9ece-4150-9183-4da52f0c88cb")
+		)
+		(pin "14"
+			(uuid "89ad9783-5454-4345-84bd-907802ad57a1")
+		)
+		(pin "A2"
+			(uuid "27657e7b-0226-49f0-b56d-ca01cb8b377c")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -9251,7 +11031,7 @@
 			(uuid "3c7f3438-316a-4a0e-be4f-1de4b852981f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "#PWR02")
 					(unit 1)
@@ -9331,7 +11111,7 @@
 			(uuid "e55d4ba8-dd30-412a-90c9-61e3437d9c2b")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP0")
 					(unit 1)
@@ -9411,9 +11191,88 @@
 			(uuid "d2ca50b2-b7fe-4001-8185-f99b07bab298")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55e3ad76-e56b-4fbd-8fd8-0e87400d505f")
+		(property "Reference" "PURPLE"
+			(at 245.11 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7519ec9-2364-47e8-b5fa-1c974ac034a1")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "PURPLE")
 					(unit 1)
 				)
 			)
@@ -9491,9 +11350,88 @@
 			(uuid "900320d3-b343-47b2-a1e5-a34733d02c5b")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "568b9880-2a49-4149-9f12-4342862b4bdc")
+		(property "Reference" "GREEN"
+			(at 245.11 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26dc4ac1-4f5a-48b3-8038-13ba90a4d986")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "GREEN")
 					(unit 1)
 				)
 			)
@@ -9572,7 +11510,7 @@
 			(uuid "2f9ebeb6-9d19-4577-8855-6b6e9deaf115")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP71")
 					(unit 1)
@@ -9651,7 +11589,7 @@
 			(uuid "f83e8461-e888-4ac7-86a7-51dd5d8a0ab9")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "24VL7")
 					(unit 1)
@@ -9732,9 +11670,87 @@
 			(uuid "a3ae0502-9802-4321-aeb0-c9935fcaad01")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 355.6 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59cd3075-e270-4099-bc58-fb2f5baf8c55")
+		(property "Reference" "#PWR015"
+			(at 355.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 355.6 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 355.6 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96dbed72-95c2-480f-9515-953a95755f45")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9813,7 +11829,7 @@
 			(uuid "c2afb90d-0af5-4e28-aadb-6075b5bee163")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP46")
 					(unit 1)
@@ -9891,7 +11907,7 @@
 			(uuid "61623b29-08a8-498c-8a85-a223a7747eb8")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "#PWR07")
 					(unit 1)
@@ -9970,7 +11986,7 @@
 			(uuid "b97b98b8-f4b0-46a0-936f-85142139196d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "24VL5")
 					(unit 1)
@@ -10050,7 +12066,7 @@
 			(uuid "a29f9228-e3c0-4e77-8319-ba6f42b67731")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP7")
 					(unit 1)
@@ -10129,7 +12145,7 @@
 			(uuid "c11547a4-ce36-4b84-a0ef-53db99830778")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANL2")
 					(unit 1)
@@ -10210,9 +12226,87 @@
 			(uuid "1ccecf3f-f6ef-4be7-847e-391dc7a7548f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 336.55 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62654c1e-cb7c-40be-adab-3c7a9c37cde4")
+		(property "Reference" "#PWR014"
+			(at 336.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 336.55 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 336.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b5fc76f-2896-46fd-9388-19ac0ac27571")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10290,7 +12384,7 @@
 			(uuid "f2492b94-8ae3-4a7f-94c3-ddb858f4423e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP15")
 					(unit 1)
@@ -10369,7 +12463,7 @@
 			(uuid "288016cf-8c27-4378-b7a6-df968f8a124c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND")
 					(unit 1)
@@ -10450,7 +12544,7 @@
 			(uuid "867eaa26-aabc-46df-ac87-bdff35505f04")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP25")
 					(unit 1)
@@ -10530,7 +12624,7 @@
 			(uuid "4d7ab250-961c-4186-85b1-bf494650499a")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V8")
 					(unit 1)
@@ -10611,9 +12705,87 @@
 			(uuid "c39286a4-2534-4e82-a41c-aeae7c5c4c98")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 369.57 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69f2708a-560f-43bb-adea-5ff0e5b73a5c")
+		(property "Reference" "#PWR016"
+			(at 369.57 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 369.57 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 369.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c44ccb27-898d-4c31-acca-2888b1e74830")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10692,7 +12864,7 @@
 			(uuid "9b0ce3de-93bf-4871-8936-89cff9df1b87")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP22")
 					(unit 1)
@@ -10773,7 +12945,7 @@
 			(uuid "5d490188-2686-40e3-8be5-9ab3f58a7beb")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP30")
 					(unit 1)
@@ -10853,7 +13025,7 @@
 			(uuid "b717c703-5865-4db0-be94-5899d1ec3faf")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V3")
 					(unit 1)
@@ -10933,7 +13105,7 @@
 			(uuid "3b7ea70b-102f-461e-91e1-a152bd43b486")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "A1")
 					(unit 1)
@@ -11012,7 +13184,7 @@
 			(uuid "e7641089-1373-4b24-978a-79842e6aa80f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND6")
 					(unit 1)
@@ -11092,9 +13264,165 @@
 			(uuid "c3056d17-a80f-4831-ab27-cc8779c3a07c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e3f6845-3237-4e7a-b1e3-74f35d4a4209")
+		(property "Reference" "#PWR011"
+			(at 290.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.83 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fabfe4f9-131c-4347-9bd1-bff46e2b169d")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e97cbfc-53be-4ad8-828a-4b21f2be5e7d")
+		(property "Reference" "#PWR018"
+			(at 234.95 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0f1b238-f26f-408f-a012-7919d66d8803")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11171,7 +13499,7 @@
 			(uuid "a98e682d-ff6b-4953-abe9-d94e26a56089")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANH5")
 					(unit 1)
@@ -11252,7 +13580,7 @@
 			(uuid "cf917f8e-7dd5-4199-943f-2094db0d2b10")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP40")
 					(unit 1)
@@ -11332,7 +13660,7 @@
 			(uuid "06273487-c3db-4adb-ac9e-2b6be38708ff")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP6")
 					(unit 1)
@@ -11412,7 +13740,7 @@
 			(uuid "94f677eb-9468-4993-9e3e-a135f6651b49")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP9")
 					(unit 1)
@@ -11493,7 +13821,7 @@
 			(uuid "d5e2d600-9f3f-420d-8c53-3ed5cedf5519")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP93")
 					(unit 1)
@@ -11572,7 +13900,7 @@
 			(uuid "88bd5ca6-8418-41a8-88e8-f4410a9e40f7")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "ENC2")
 					(unit 1)
@@ -11652,9 +13980,87 @@
 			(uuid "07e106f9-010b-4ba0-9e70-6e28b3de8399")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 303.53 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "730c87e4-b6b3-4afd-b62b-918168c11487")
+		(property "Reference" "#PWR012"
+			(at 303.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 303.53 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 303.53 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "030c7768-57e6-4795-8a32-92b58705c11a")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11733,7 +14139,7 @@
 			(uuid "86a6f616-c6eb-498c-826c-9f6ad7f522d4")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP29")
 					(unit 1)
@@ -11812,7 +14218,7 @@
 			(uuid "1a040310-5b95-4b24-b882-0bdbf68cabde")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANH1")
 					(unit 1)
@@ -11891,7 +14297,7 @@
 			(uuid "fe35881d-461e-458b-8d34-51eb7a6c21f9")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "PHS1")
 					(unit 1)
@@ -11972,7 +14378,7 @@
 			(uuid "e87ac2aa-be14-480c-ad69-d9e0030c8841")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP60")
 					(unit 1)
@@ -12053,7 +14459,7 @@
 			(uuid "34683a85-1750-4a46-a38f-5aba6d091d34")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V9")
 					(unit 1)
@@ -12130,7 +14536,7 @@
 			(uuid "f5a7f324-166b-481f-8a0d-a1d233616396")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "#PWR06")
 					(unit 1)
@@ -12209,9 +14615,177 @@
 			(uuid "9e3674a9-eb11-4b20-97cf-1b090ba2f3f7")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "PHS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 322.58 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b21a2d7-c9e9-488e-baa7-78ce859bbdf5")
+		(property "Reference" "#PWR013"
+			(at 322.58 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e13cfb0-8234-49bc-a3f5-ee6455c97b35")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPDT")
+		(at 280.67 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb81190-57c6-4dc7-baee-4c495d9f2935")
+		(property "Reference" "K2"
+			(at 280.67 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Relay_SPDT"
+			(at 280.67 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPDT, monostable, EN50005"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "cf04d606-9cc8-4e95-a27a-6380365ef7c4")
+		)
+		(pin "11"
+			(uuid "7298c2a6-ff64-46a0-a98b-c1ae5825011d")
+		)
+		(pin "A1"
+			(uuid "adb61052-9218-44e1-8d97-f25dfc49b856")
+		)
+		(pin "14"
+			(uuid "1adccfc8-134d-449b-90fd-619047319886")
+		)
+		(pin "A2"
+			(uuid "5ef1f54c-5a77-4719-8305-cc0f89e2031f")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -12288,7 +14862,7 @@
 			(uuid "28c22b6a-b6c7-42f1-bbe4-7654f837ef2e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND5")
 					(unit 1)
@@ -12368,7 +14942,7 @@
 			(uuid "bba13a69-f3ad-4576-ab4d-6a2cdb2a29db")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V")
 					(unit 1)
@@ -12448,7 +15022,7 @@
 			(uuid "c3bec92d-3ffd-461d-b09a-f4ac07f48ae5")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP7")
 					(unit 1)
@@ -12528,9 +15102,87 @@
 			(uuid "9041f118-78dc-4476-8c83-fa41ed1b3d71")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 271.78 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "826fce26-ecdf-41cd-8291-1f557a183a3c")
+		(property "Reference" "#PWR010"
+			(at 271.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 271.78 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 271.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feab01a5-a62f-4e4a-a187-4cac64a793b7")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12609,7 +15261,7 @@
 			(uuid "a7874974-905c-4c90-ad02-8e6c85d4992a")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP83")
 					(unit 1)
@@ -12689,7 +15341,7 @@
 			(uuid "0cea772a-efd1-443e-a129-c6497d3b147e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP1")
 					(unit 1)
@@ -12770,7 +15422,7 @@
 			(uuid "058434ef-8bb3-4c13-b207-68f6428272ac")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP32")
 					(unit 1)
@@ -12851,7 +15503,7 @@
 			(uuid "b972007b-5221-490e-8bca-da039cccb227")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP16")
 					(unit 1)
@@ -12930,7 +15582,7 @@
 			(uuid "8e716b85-0ad0-42ff-b11d-19653ccf2dc8")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANH2")
 					(unit 1)
@@ -13009,7 +15661,7 @@
 			(uuid "9769618d-b7c1-416e-b534-e7e651c73222")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND2")
 					(unit 1)
@@ -13088,7 +15740,7 @@
 			(uuid "6ffed486-56dd-44ed-bb64-1afb1b860735")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "48VP4")
 					(unit 1)
@@ -13167,9 +15819,99 @@
 			(uuid "478942ef-a2cd-4dc5-8205-5381b5445c2f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPDT")
+		(at 312.42 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88fb1256-c1fc-4aa4-ad4f-47251bae890b")
+		(property "Reference" "K3"
+			(at 312.42 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Relay_SPDT"
+			(at 312.42 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPDT, monostable, EN50005"
+			(at 312.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "586a6462-2dcc-4e3d-94ee-157da8de27a2")
+		)
+		(pin "11"
+			(uuid "0bf6a7bc-38e6-483e-b579-b31562fbac3c")
+		)
+		(pin "A1"
+			(uuid "2f917e8f-6935-48cf-b810-6163de4ddece")
+		)
+		(pin "14"
+			(uuid "e9d7a715-9419-42d4-aeba-d95d803000c6")
+		)
+		(pin "A2"
+			(uuid "f07cde65-864d-4a78-97a4-28150f605f03")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -13246,7 +15988,7 @@
 			(uuid "f701470c-7db5-435f-8989-3ea50b87cf8e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANL1")
 					(unit 1)
@@ -13326,7 +16068,7 @@
 			(uuid "76fcf08c-babb-4a29-b6d6-87d36f4c2594")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP6")
 					(unit 1)
@@ -13407,7 +16149,7 @@
 			(uuid "36e2723a-f86a-440e-8b2e-be6160afee69")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP10")
 					(unit 1)
@@ -13488,7 +16230,7 @@
 			(uuid "82149eda-f247-48a7-a93d-a183c1f74447")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP65")
 					(unit 1)
@@ -13569,7 +16311,7 @@
 			(uuid "2fcc37bb-2bb3-4285-b92d-1049216a523a")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP28")
 					(unit 1)
@@ -13648,7 +16390,7 @@
 			(uuid "979fbcdc-9de1-494c-9ac8-d77962eb47a5")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANL7")
 					(unit 1)
@@ -13727,7 +16469,7 @@
 			(uuid "fc1426da-2b81-4f3f-a138-7831721eb1b5")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "ENC")
 					(unit 1)
@@ -13808,7 +16550,7 @@
 			(uuid "03b91f91-f337-4110-be27-27c8e5e7087b")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP38")
 					(unit 1)
@@ -13888,7 +16630,7 @@
 			(uuid "068ba9c0-6007-4e59-81b7-f8a03e5c18c2")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP0")
 					(unit 1)
@@ -13968,7 +16710,7 @@
 			(uuid "cff1d754-71f0-4663-93b1-43bc1b13ebe8")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP1")
 					(unit 1)
@@ -14049,7 +16791,7 @@
 			(uuid "4461a290-f9bc-4cb0-889e-61d6f306ca09")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP44")
 					(unit 1)
@@ -14128,7 +16870,7 @@
 			(uuid "4334c97f-c290-477a-b6fa-a95631ce987e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND1")
 					(unit 1)
@@ -14207,7 +16949,7 @@
 			(uuid "92959c5c-c0f8-48e0-8b4a-9aeda18263ef")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND1")
 					(unit 1)
@@ -14286,7 +17028,7 @@
 			(uuid "7fdbb5ee-50b4-4cf3-94a8-cf3f707d2364")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANL3")
 					(unit 1)
@@ -14366,7 +17108,7 @@
 			(uuid "84b5cd97-b1e7-47c2-ac78-dd738151700d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP0")
 					(unit 1)
@@ -14445,7 +17187,7 @@
 			(uuid "9014a954-31f1-429d-ad51-e4bacc6f67c7")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "PHS3")
 					(unit 1)
@@ -14526,7 +17268,7 @@
 			(uuid "9998e022-803f-44b6-9031-298ccbcd7640")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP36")
 					(unit 1)
@@ -14605,7 +17347,7 @@
 			(uuid "cc4f108d-123a-4583-96a7-61a4d7cc0a07")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND2")
 					(unit 1)
@@ -14686,7 +17428,7 @@
 			(uuid "6d7bb4cb-5974-4c9c-9075-48f283253a09")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V6")
 					(unit 1)
@@ -14766,7 +17508,7 @@
 			(uuid "8f17af98-970e-4678-b1f5-7cb056a96295")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP15")
 					(unit 1)
@@ -14847,7 +17589,7 @@
 			(uuid "1eda7c88-7c31-4f1c-81e9-fa423b059da9")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP76")
 					(unit 1)
@@ -14927,7 +17669,7 @@
 			(uuid "cc562b01-d943-4d79-a35c-72a62423c6a1")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP3")
 					(unit 1)
@@ -15008,7 +17750,7 @@
 			(uuid "2198fc41-79ad-4b78-8100-eb69bf67b895")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP13")
 					(unit 1)
@@ -15088,7 +17830,7 @@
 			(uuid "b386a30b-c09c-4451-a937-f12b562e25a9")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP2")
 					(unit 1)
@@ -15168,9 +17910,99 @@
 			(uuid "aa5292c1-8b97-4d40-9cbd-50852711fa85")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPDT")
+		(at 345.44 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a329876b-da92-4462-a4c2-33836f51deac")
+		(property "Reference" "K4"
+			(at 345.44 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Relay_SPDT"
+			(at 345.44 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPDT, monostable, EN50005"
+			(at 345.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "8d0e77b2-7d5f-4453-b477-452e370ddb23")
+		)
+		(pin "11"
+			(uuid "c10b9184-d40e-4253-852f-3d2504eb63e6")
+		)
+		(pin "A1"
+			(uuid "522c1f3a-7b90-4cfb-bf92-a8ca2b416106")
+		)
+		(pin "14"
+			(uuid "01221d2e-30dc-41c8-aa4e-c34d1c5012a1")
+		)
+		(pin "A2"
+			(uuid "fa19b496-e5aa-450c-a16d-83deb3126756")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -15247,7 +18079,7 @@
 			(uuid "e9dc51d7-eb94-419c-92d7-eba482e3879d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "24VL6")
 					(unit 1)
@@ -15326,7 +18158,7 @@
 			(uuid "50b7e203-6a4c-4ca9-8b17-9a7e20f433e8")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "PHS2")
 					(unit 1)
@@ -15405,7 +18237,7 @@
 			(uuid "3a311109-987c-48b0-85fe-c2e022330b24")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND6")
 					(unit 1)
@@ -15485,9 +18317,87 @@
 			(uuid "6118267f-f5cb-4cdf-a786-4ea88e36e2ea")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 388.62 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82acaa2-dc54-42d4-9a13-a00a0b676129")
+		(property "Reference" "#PWR017"
+			(at 388.62 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 388.62 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 388.62 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d2eddcb-a0e0-4ddb-b364-e9db5c104fa5")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15566,7 +18476,7 @@
 			(uuid "700a8750-3920-44c4-a29c-1c0e423b4c02")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP7")
 					(unit 1)
@@ -15647,7 +18557,7 @@
 			(uuid "17e305ed-c781-4bb1-b549-9746d1872304")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP77")
 					(unit 1)
@@ -15726,7 +18636,7 @@
 			(uuid "741f4061-73d2-421c-9824-2a522a74b073")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "PHS")
 					(unit 1)
@@ -15805,7 +18715,7 @@
 			(uuid "d804d423-0aa7-4a7e-a69e-03a0c9ae10f9")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANL")
 					(unit 1)
@@ -15886,7 +18796,7 @@
 			(uuid "89c2a98d-4c46-4d58-886b-9937d3815a3c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP87")
 					(unit 1)
@@ -15967,7 +18877,7 @@
 			(uuid "093fd2c5-783b-4c50-a822-1b94785eb857")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP23")
 					(unit 1)
@@ -16047,7 +18957,7 @@
 			(uuid "1c7be085-c91a-4d82-9190-e4bfda136595")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP6")
 					(unit 1)
@@ -16128,7 +19038,7 @@
 			(uuid "374b4f82-fa51-4cfe-b3d1-c62f5f371e0e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP12")
 					(unit 1)
@@ -16209,7 +19119,7 @@
 			(uuid "3036ceef-02a4-45c4-bac3-ea83ed3ab107")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP54")
 					(unit 1)
@@ -16290,9 +19200,88 @@
 			(uuid "23885548-0734-46f4-90a4-b4e1a8abf923")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b414417e-afa9-4ed4-8cc6-cd397a972350")
+		(property "Reference" "RED"
+			(at 245.11 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c2520af-3cae-4f09-afe5-ca1a83c2f4c1")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "RED")
 					(unit 1)
 				)
 			)
@@ -16370,7 +19359,7 @@
 			(uuid "52cedca5-57b9-42f1-9862-16b609b99dc4")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP5")
 					(unit 1)
@@ -16450,7 +19439,7 @@
 			(uuid "d575e753-acd0-4162-b754-bf45f52ee50a")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP2")
 					(unit 1)
@@ -16530,7 +19519,7 @@
 			(uuid "7ed14d5a-fc0e-43df-a402-45f905243f2b")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP4")
 					(unit 1)
@@ -16611,7 +19600,7 @@
 			(uuid "1d0e90b4-1f0a-4bf4-a137-3015a7006266")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP43")
 					(unit 1)
@@ -16691,7 +19680,7 @@
 			(uuid "18f16f0c-cde6-46f7-99a5-55383a732b20")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP13")
 					(unit 1)
@@ -16772,7 +19761,7 @@
 			(uuid "3152863a-582d-4611-88f3-7fed04741c84")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP37")
 					(unit 1)
@@ -16852,7 +19841,7 @@
 			(uuid "5abb51e4-3ccd-473d-acbe-3aef9ed639df")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP8")
 					(unit 1)
@@ -16933,7 +19922,7 @@
 			(uuid "dba1cdc2-ba92-45cd-8535-891ee8593b01")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP45")
 					(unit 1)
@@ -17014,7 +20003,7 @@
 			(uuid "e44c6bef-c480-44b1-bb88-5f390d302199")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP59")
 					(unit 1)
@@ -17093,7 +20082,7 @@
 			(uuid "b8671b6a-d60f-4ed3-8dd4-a42b2571fdac")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANL6")
 					(unit 1)
@@ -17172,7 +20161,7 @@
 			(uuid "3d2eec38-70a8-4501-877c-2281a61f2e34")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "24VL3")
 					(unit 1)
@@ -17251,7 +20240,7 @@
 			(uuid "631c66f9-a83e-420e-8392-2177f1bcd27b")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "PHS5")
 					(unit 1)
@@ -17330,7 +20319,7 @@
 			(uuid "ecf54994-0bc8-48ec-904a-13c64ff46cef")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "ENC5")
 					(unit 1)
@@ -17411,7 +20400,7 @@
 			(uuid "f6ae963a-c9ff-4ea5-bb34-df2f0d211aba")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP6")
 					(unit 1)
@@ -17490,7 +20479,7 @@
 			(uuid "cbb3fead-bca4-463c-9ec6-953dbbeb122e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "#PWR01")
 					(unit 1)
@@ -17571,7 +20560,7 @@
 			(uuid "9041e845-ba6f-4e14-b3a9-03f499b0b61f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP88")
 					(unit 1)
@@ -17652,7 +20641,7 @@
 			(uuid "20882a6b-b1cf-4383-8a2e-f98d112d0ab0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP74")
 					(unit 1)
@@ -17732,7 +20721,7 @@
 			(uuid "7c4d2a08-e1f9-4266-89ef-260e21144548")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP7")
 					(unit 1)
@@ -17813,7 +20802,7 @@
 			(uuid "68737312-d696-4869-b44f-3fbef2967a86")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP68")
 					(unit 1)
@@ -17894,7 +20883,7 @@
 			(uuid "9aca5093-8f96-42de-9167-869b0c42b799")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP85")
 					(unit 1)
@@ -17973,7 +20962,7 @@
 			(uuid "5de0c267-ee6a-4ea7-aa97-261a7ad418ba")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "48VP3")
 					(unit 1)
@@ -18052,7 +21041,7 @@
 			(uuid "5f711ca1-6dc3-4d6f-a748-418ceaf7b18c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "#PWR04")
 					(unit 1)
@@ -18131,7 +21120,7 @@
 			(uuid "f1c62b46-4511-4463-a7d4-bd76f46ec8cb")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "24VL4")
 					(unit 1)
@@ -18210,7 +21199,7 @@
 			(uuid "562724d9-03a3-4e0d-b4f7-81aba43b68c1")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "PHS6")
 					(unit 1)
@@ -18291,7 +21280,7 @@
 			(uuid "1415816f-922f-4a75-8d81-ae1295cecb4f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP27")
 					(unit 1)
@@ -18372,7 +21361,7 @@
 			(uuid "366dfe9d-05f0-43c6-ac48-3916dbf64004")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP20")
 					(unit 1)
@@ -18452,7 +21441,7 @@
 			(uuid "cc3dde9e-b8c2-461d-a02a-45631a191be7")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP7")
 					(unit 1)
@@ -18532,9 +21521,88 @@
 			(uuid "6b1492f2-0eed-4507-9db0-cdf7322fb893")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cedfd21a-d665-4049-ad13-0cb535b8b215")
+		(property "Reference" "WHITE"
+			(at 245.11 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85a1a777-274c-4d9c-a8eb-8a9267088529")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "WHITE")
 					(unit 1)
 				)
 			)
@@ -18611,7 +21679,7 @@
 			(uuid "ca42c610-3080-41ff-b21b-dbdca38b4b87")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "48VP5")
 					(unit 1)
@@ -18691,7 +21759,7 @@
 			(uuid "59c58801-6d0f-4737-86fa-85c78ee00d87")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP3")
 					(unit 1)
@@ -18770,7 +21838,7 @@
 			(uuid "d53b6011-641e-4f22-b351-7731145e23f9")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "48VP6")
 					(unit 1)
@@ -18851,7 +21919,7 @@
 			(uuid "708f1c73-a705-4bfb-aa59-bc003d295722")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP78")
 					(unit 1)
@@ -18932,7 +22000,7 @@
 			(uuid "5a7a103e-dfe4-44d4-a747-4a0c1fce2337")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP34")
 					(unit 1)
@@ -19013,7 +22081,7 @@
 			(uuid "e1fe57d3-0cc9-45a5-b5e3-1962537031a7")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP80")
 					(unit 1)
@@ -19093,7 +22161,7 @@
 			(uuid "132bcb44-623c-4de0-9c28-a29fa6391cc0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V1")
 					(unit 1)
@@ -19174,7 +22242,7 @@
 			(uuid "22cc56b5-bcbe-4e47-9a4b-41fb547e71d0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP56")
 					(unit 1)
@@ -19255,7 +22323,7 @@
 			(uuid "af6b436c-bdb4-4c38-971a-101a1dbd222e")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP62")
 					(unit 1)
@@ -19334,7 +22402,7 @@
 			(uuid "04d2d79c-9c4e-42de-84ab-8169bfd55edd")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "48VP7")
 					(unit 1)
@@ -19413,7 +22481,7 @@
 			(uuid "47c2f86a-9ddd-4d4b-9588-f447a310d357")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "PHS4")
 					(unit 1)
@@ -19494,7 +22562,7 @@
 			(uuid "2a4b8684-a69f-48e4-be00-562a96f0b115")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "R1")
 					(unit 1)
@@ -19573,7 +22641,7 @@
 			(uuid "e6d97fda-7306-4e76-b66c-33ee8dfb2feb")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "ENC1")
 					(unit 1)
@@ -19654,7 +22722,7 @@
 			(uuid "2fb7455c-1bb7-476f-bc0c-eb318ced19ae")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "-V4")
 					(unit 1)
@@ -19733,7 +22801,7 @@
 			(uuid "e86ea95b-e450-491a-813e-dcfbc17b7fe2")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND3")
 					(unit 1)
@@ -19814,7 +22882,7 @@
 			(uuid "d8551f61-3d1e-4045-a4eb-d57194c592f0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP82")
 					(unit 1)
@@ -19893,7 +22961,7 @@
 			(uuid "94bf707b-9862-4d0b-ba20-1844df9b665b")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANH7")
 					(unit 1)
@@ -19974,7 +23042,7 @@
 			(uuid "9a377b72-da69-4be9-9088-1fd6b6d11328")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP41")
 					(unit 1)
@@ -20055,7 +23123,7 @@
 			(uuid "36b5dc39-f053-400e-80ff-a5a28f96f81f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP79")
 					(unit 1)
@@ -20132,7 +23200,7 @@
 			(uuid "c5956d53-343c-4d31-88aa-7c0b0d257f02")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "#PWR05")
 					(unit 1)
@@ -20213,7 +23281,7 @@
 			(uuid "3cf196db-4c3c-404f-b4a0-3ac6b02a7abf")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP26")
 					(unit 1)
@@ -20294,7 +23362,7 @@
 			(uuid "772635ce-6144-41bb-a54c-77ae91aed24c")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP73")
 					(unit 1)
@@ -20374,9 +23442,88 @@
 			(uuid "7fb72736-a900-41ec-888d-e772b0e68425")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 243.84 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec569797-d678-4748-8551-313ed713b306")
+		(property "Reference" "BROWN"
+			(at 245.11 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 245.11 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77ad44ff-8385-4036-a930-1eecdad2f51c")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "BROWN")
 					(unit 1)
 				)
 			)
@@ -20455,7 +23602,7 @@
 			(uuid "241d80e2-fe88-4a91-a991-b93893800e18")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP89")
 					(unit 1)
@@ -20536,7 +23683,7 @@
 			(uuid "108c2388-6158-40ee-8366-cfa82de1aa96")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP9")
 					(unit 1)
@@ -20617,7 +23764,7 @@
 			(uuid "d52dbc6d-a1c5-4888-9cf9-049bde7c02b0")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP31")
 					(unit 1)
@@ -20698,7 +23845,7 @@
 			(uuid "713ab344-1e33-431b-8145-46fea7340eed")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP72")
 					(unit 1)
@@ -20777,7 +23924,7 @@
 			(uuid "8d7552eb-a18e-4f36-b310-fc3ad98876cd")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "ENC7")
 					(unit 1)
@@ -20857,7 +24004,7 @@
 			(uuid "4cf52065-0ecf-4c76-aec9-dd1859a58a3f")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP4")
 					(unit 1)
@@ -20937,7 +24084,7 @@
 			(uuid "3d6eae90-50be-4f36-b3b2-6f962a772d1d")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP12")
 					(unit 1)
@@ -21018,7 +24165,7 @@
 			(uuid "efebd1e2-f9dc-4a9b-a214-ba262740ba53")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP8")
 					(unit 1)
@@ -21098,7 +24245,7 @@
 			(uuid "314fb9e6-e0a7-4a5b-b161-bc82f985ef59")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "TP2")
 					(unit 1)
@@ -21177,9 +24324,99 @@
 			(uuid "3462b803-ff39-4dc7-b4f9-6d51644db040")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "CANL5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPDT")
+		(at 378.46 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff77e3db-7a3d-45be-9d62-8aa07e517031")
+		(property "Reference" "K5"
+			(at 378.46 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Relay_SPDT"
+			(at 378.46 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPDT, monostable, EN50005"
+			(at 378.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "8735ed99-9619-4eb5-bad9-7cc1bceece9e")
+		)
+		(pin "11"
+			(uuid "a6c035fe-ec82-46d2-9ec6-73e1285b0317")
+		)
+		(pin "A1"
+			(uuid "06c8dd4c-359c-459e-924e-6575a39fb1fc")
+		)
+		(pin "14"
+			(uuid "f28144e4-9176-4ee7-a908-4bb065ded3ec")
+		)
+		(pin "A2"
+			(uuid "4094349e-cb42-4901-b508-fa234a486283")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
+				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
+					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -21256,7 +24493,7 @@
 			(uuid "b385dd02-83e4-4fcd-90d2-b93c07799734")
 		)
 		(instances
-			(project "agrobot_master_wiring_diagram"
+			(project "agrobot_master_wiring_diagramApril5th5_40PM"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
 					(reference "GND")
 					(unit 1)
